@@ -95,7 +95,7 @@ def generate_response(recommendations):
         generated_response += "\n"
         i += 1
 
-    generated_response += "Would you like recommendations with a different genre, host, or topic?"
+    generated_response += "\nWould you like recommendations with a different genre, host, or topic?\n"
     return generated_response
 
 
@@ -136,7 +136,9 @@ if __name__ == "__main__":
                 query.append(t)
             api_results = search_podcasts(query)
             if api_results:
-                print("\nChatbot: Based on your history, you might also enjoy these podcasts:\n")
                 ranked = rank_results(user_input, api_results)
-                response = generate_response(ranked)
+                if ranked:
+                    print("\nChatbot: Based on your history, you might also enjoy these podcasts:\n")
+                    response = generate_response(ranked)
+                    print("Chatbot: ", response)
         update_memory(user_input, tokens)
