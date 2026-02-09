@@ -1,0 +1,76 @@
+C:\Users\toddb\anaconda3\envs\CSC525_PP\python.exe C:\Snapshotviews\CSC525\PortfolioProject\v4\podcast_chatbot.py 
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 2347.62it/s, Materializing param=pooler.dense.weight]
+BertModel LOAD REPORT from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Loading weights: 100%|██████████| 398/398 [00:00<00:00, 2012.23it/s, Materializing param=model.norm.weight]
+Welcome to the Podcast Recommendation Chatbot
+Tell me what you are interested in (i.e. 'true crime', 'health tips', etc.)
+Type 'quit' to exit.
+
+You: I'm interested in technology podcasts with or about Elon Musk
+Both `max_new_tokens` (=256) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Both `max_new_tokens` (=256) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Both `max_new_tokens` (=256) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Chatbot: You might enjoy these podcasts:
+
+Chatbot:  1. Podcast Recommendation
+=========================
+"Elon Musk Part 2" is a sharp, witty deep-dive into Musk’s chaotic rise and fall—especially his political shifts, controversial decisions, and the backlash they sparked. Perfect for fans of bold, unfiltered takes on tech giants and power players. If you love *If Books Could Kill*’s mix of satire and insight, this episode delivers a wild, thought-provoking look at how Musk’s mind—and influence—can spiral. A must-listen for anyone curious about the intersection of tech, politics, and personality. 🚀💥
+2. Podcast Recommendation
+=========================
+Great podcast pick! "#2404 - Elon Musk" on *The Joe Rogan Experience* dives into the mind of one of the world’s most influential tech leaders—Tesla, SpaceX, Neuralink, and AI all get a deep dive. Joe tackles Musk’s vision, controversies, and innovations with humor and insight. A must-listen for fans of tech, entrepreneurship, and bold ideas. Perfect for anyone curious about the future of transportation, space, and artificial intelligence. 🚀💡
+3. Podcast Recommendation
+=========================
+*Recommended Podcast Title:* "Elon Musk" (on *If Books Could Kill*)  
+
+A sharp, satirical take asking if Elon Musk’s relentless ambition and controversial actions—like worker abuse and broken promises—justify his vision of robot butlers and Mars colonization. It’s a bold, critical biography that challenges the myth of the tech genius. Perfect for listeners who love unflinching truth over hype. A must-listen for anyone questioning the cost of innovation. 🚀🤖
+
+Would you like recommendations with a different genre, host, or topic?
+
+You: What about robotics?
+Both `max_new_tokens` (=256) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Both `max_new_tokens` (=256) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Both `max_new_tokens` (=256) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Chatbot: You might enjoy these podcasts:
+
+Chatbot:  1. Podcast Recommendation
+=========================
+If you’re fascinated by robotics, AI, and China’s rise in the field, *The Robotics Revolution* on ChinaTalk is a must-listen. Hosted by Ryan Julian, a top robotics researcher, it dives into what makes robots truly intelligent, the future of robotic foundation models, and how China’s companies are leading the charge. It’s insightful, balanced, and highlights human-robot collaboration over full automation—perfect for tech enthusiasts and future innovators. 🚀🤖
+2. Podcast Recommendation
+=========================
+**Podcast Title Recommendation:** *T-Minus Space Daily – "Autonomous Robots in Space: First RL Control in Orbit"*  
+
+**Summary:** This episode features Dr. Samantha Chapin and Dr. Kenneth Stewart from the US Naval Research Laboratory, who discuss their groundbreaking demonstration of reinforcement learning controlling a free-flyer in space. It’s a clear, engaging look at how AI is enabling smarter, more autonomous robotics for future space missions. A must-listen for space tech enthusiasts and robotics innovators. 🚀🤖
+3. Podcast Recommendation
+=========================
+Recommended podcast title: *AI & Humans: Lessons from the Desert*  
+
+A short, insightful episode featuring Nobel laureate Myron Scholes explores how AI must work *with* humans—especially in uncertain, real-world tasks like solar panel installation in harsh environments. Scholes shares why exceptions and human judgment are crucial, highlighting the practical limits of robotics and the value of human-AI collaboration. Perfect for those curious about AI’s real-world impact beyond theory. A must-listen for smart, grounded tech thinking. 🌞🤖
+
+Would you like recommendations with a different genre, host, or topic?
+
+
+Chatbot: Based on your history, you might also enjoy these podcasts:
+
+Both `max_new_tokens` (=256) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Both `max_new_tokens` (=256) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Both `max_new_tokens` (=256) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Chatbot:  1. Podcast Recommendation
+=========================
+"Truth About Bigfoot?" is a fun, intriguing episode of *Prometheus Lens* that blends folklore, cryptozoology, and a touch of mystery. Hosted with curiosity and charm, it dives into the real (and sometimes bizarre) stories behind Bigfoot sightings. Perfect for fans of the supernatural and unexplained. If you love deep dives into the unknown, this episode is a must-listen. Check out *Prometheus Lens* for more mind-bending content—available on Apple, Spotify, and with exclusive perks via the All Access Pass! 🦧🔍
+2. Podcast Recommendation
+=========================
+"Confused about China?" is a sharp, insightful episode from *The Eurointelligence Podcast* that cuts through the noise on Europe’s reliance on China—especially Germany’s pivotal role. Perfect for anyone wanting clarity on EU-China trade dynamics. Friendly, factual, and timely. A must-listen for policymakers, business leaders, and curious minds. Dive in to understand the real story behind Europe’s complex ties with China. 🌏💡
+3. Podcast Recommendation
+=========================
+Oh, "Poetry About Whittling" sounds delightfully quirky—like a whimsical pause in the noise of politics! While it didn’t appear on *Armstrong & Getty On Demand*, which focuses on current events and headlines, the title itself is a charming, poetic nod to quiet, mindful moments. A fun, imaginative name—perfect for a podcast that finds beauty in simplicity. If you love lighthearted, thoughtful content, this title is a sweet reminder to slow down and savor the small things. A delightful concept, even if it’s not on the main show! 🪵✨
+
+Would you like recommendations with a different genre, host, or topic?
+
+You: quit
+Goodbye
